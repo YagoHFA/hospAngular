@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "prod": "ng serve --port 8080",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:hospangular": "node dist/hospangular/server/server.mjs"
