@@ -65,6 +65,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 8080
+          },
           "configurations": {
             "production": {
               "buildTarget": "hospangular:build:production"
@@ -102,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "310957d5-6995-4963-971f-326a19bd8aa4"
   }
 }
